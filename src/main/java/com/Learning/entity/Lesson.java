@@ -1,9 +1,13 @@
 package com.Learning.entity;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
 @Table(name = "Lessons")
+@Setter
+@Getter
 public class Lesson {
 
     @Id
